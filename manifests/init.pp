@@ -1,6 +1,6 @@
-# == Class: puppet
+# == Class: tidy
 #
-# Manages both puppet client and puppet master.
+# Manages html tidy.
 #
 class tidy {
   include tidy::install

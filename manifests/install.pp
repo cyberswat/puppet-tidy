@@ -1,11 +1,11 @@
-# == Class: puppet::install
+# == Class: tidy::install
 #
-# Installs the puppet client.
+# Installs the html tidy package.
 #
 # === Parameters
 #
-# [*puppet_client_package*]
-#   The name of the puppet client package that should be installed. eg puppet
+# [*tidy_client_package*]
+#   The name of the tidy client package that should be installed. eg tidy
 #
 class tidy::install inherits tidy::params {
   package { $tidy::params::tidy_client_package:
